@@ -3,6 +3,7 @@
 **Adaptive Symmetry Reference Trajectory Generation in Shared Autonomy for Active Knee Orthosis**<br>
 ### Author:
 **Rongkai Liu, Tingting Ma, Ningguang Yao, Hao Li, Xinyan Zhao, Yu Wang,  Hongqing Pan, Quanjjun Song**<br>
+![Image text](https://github.com/EricRongkai/ASRTG_SA/blob/master/Figure1.jpg)
 ***
 Version：V2.1<br>
 Update time：1/15/2023<br>
