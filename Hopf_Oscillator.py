@@ -9,7 +9,6 @@
 # @Platform: Ubuntu 20.04
 
 import numpy as np
-from numba import jit
 
 class AdapHopfCpg(object):
 

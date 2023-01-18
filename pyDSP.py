@@ -6,7 +6,11 @@
 # @File : DSP.py
 # @Software: PyCharm
 # @Platform: Ubuntu 20.04
-import DSP.build.DSP_Fun as DSP_Fun
+
+# Linux
+# import DSP.build.DSP_Fun as DSP_Fun
+# Windows
+import DSP.build.DSP_CPP as DSP_Fun
 
 # Initialize DSP
 def DSP_init():

@@ -8,10 +8,15 @@
 ***
 ### Version Note
 Version：V2.1<br>
-Update time：1/15/2023<br>
-Operating environment：Ubuntu 20.04 LTS<br>
+Update time：1/18/2023<br>
+Operating environment：Ubuntu 20.04 LTS / Windows 10<br>
 Language：python 3.8<br>
 ***
+### Platform
+#### Linux:
+ Modify `import DSP.build.DSP_Fun as DSP_Fun` in pyDSP.py
+#### Win:
+Modify `import DSP.build.DSP_CPP as DSP_Fun` in pyDSP.py
 ### Install Dependency Packages
 `pip install -r requirements.txt`<br>
 ###  File Description
