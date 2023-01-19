@@ -132,7 +132,7 @@ class Dynamic_Learning_System(object):
             # Update residuals
             e_t = f_targ - self.weights[index] * self.para_r
             # Update covariance
-            self.P_cover[index] = (1/para_Lamada) * (self.P_cover[index] - (self.P_cover[index]**2 * self.para_r**2 ) / ( para_Lamada / kernel_list[index] + self.P_cover[index] * self.para_r**2 ))
+            self.P_cover[index] = (1/para_Lamada) * (self.P_cover[index] - (self.P_cover[index]**2 * self.para_r**2 ) / ( para_Lamada / (kernel_list[index] + 0.000000001) + self.P_cover[index] * self.para_r**2 ))
             # Update segmented linear model parameters
             self.weights[index] = self.weights[index] + kernel_list[index] * self.P_cover[index] * self.para_r * e_t
         return self.weights
